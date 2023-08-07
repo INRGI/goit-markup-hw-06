@@ -1,1 +1,1 @@
-#GoIT HW№5 about HTML and CSS
+#GoIT HW№6 about HTML and CSS
