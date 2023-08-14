@@ -9,11 +9,11 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
         integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/adaptive.css" />
 </head>
 
 <body>
@@ -22,17 +22,18 @@
             <nav class="navbar">
                 <a class="navbar-logo link" href="./index.html">Web<span class="navbar-span link">Studio</span></a>
                 <ul class="list navbar-list">
-                    <li><a class="navbar-link link" href="./index.html">Studio</a></li>
-                    <li><a class="navbar-link link current" href="./portfolio.html">Portfolio</a></li>
+                    <li><a class="navbar-link link current" href="./index.html">Studio</a></li>
+                    <li><a class="navbar-link link" href="./portfolio.html">Portfolio</a></li>
                     <li><a class="navbar-link link" href="">Contacts</a></li>
                 </ul>
+                <address class="header-address">
+                    <ul class="list address-list">
+                        <li><a class="address-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        <li><a class="address-link link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                    </ul>
+                </address>
             </nav>
-            <address class="header-address">
-                <ul class="list navbar-list">
-                    <li><a class="address-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a class="address-link link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-                </ul>
-            </address>
+
             <button class="menu-toggle js-open-menu" aria-controls="mobile-menu" aria-expanded="false">
                 <svg class="icon-header-menu" width="32" height="22">
                     <use href="./images/icons.svg#icon-menu"></use>
@@ -274,6 +275,56 @@
             </div>
         </div>
     </footer>
+    <div class="menu-container js-menu-container" id="mobile-menu">
+        <button class="menu-toggle js-close-menu">
+            <svg class="modal-icon icon" width="8" height="8">
+                <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+        </button>
+        <div class="mobile-container">
+            <ul class="list mobile-menu">
+                <li><a href="./index.html" class="link-mobile-menu  link">Studio</a></li>
+                <li><a href="./portfolio.html" class="link-mobile-menu current-mobile link">Portfolio</a></li>
+                <li><a href="" class="link-mobile-menu link">Contacts</a></li>
+            </ul>
+            <address class="adress-mobile">
+                <ul class="list adress-mobile-list">
+                    <li><a class="address-mobile-phone link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                    <li><a class="address-mobile-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                </ul>
+            </address>
+            <ul class="list mobile-social-list">
+                <li class="icons-ourteam footer-fix">
+                    <a class="link link-ourteam footer-social-link" tabindex="0" href="">
+                        <svg class="icon icon-ourteam" width="24" height="24">
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="icons-ourteam footer-fix">
+                    <a class="link link-ourteam footer-social-link" tabindex="0" href="">
+                        <svg class="icon icon-ourteam" width="24" height="24">
+                            <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="icons-ourteam footer-fix">
+                    <a class="link link-ourteam footer-social-link" tabindex="0" href="">
+                        <svg class="icon icon-ourteam" width="24" height="24">
+                            <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="icons-ourteam footer-fix">
+                    <a class="link link-ourteam footer-social-link" tabindex="0" href="">
+                        <svg class="icon icon-ourteam" width="24" height="24">
+                            <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
     <script defer src="js/mobile-menu.js"></script>
 </body>
 

@@ -108,15 +108,18 @@
                 <h2 class="title-doing">What are we doing</h2>
                 <ul class="list container-doing">
                     <li class="list-doing">
-                        <img src="./images/main_page/Rectangle.jpg" width="360" height="300"
+                        <img srcset="./images/main_page/Rectangle.jpg 1x, ./images/main_page/Rectangle@2x.jpg 2x"
+                            src="./images/main_page/Rectangle.jpg" width="360" height="300"
                             alt="White monitor with grafics" />
                     </li>
                     <li class="list-doing">
-                        <img src="./images/main_page/Rectangle1.jpg" width="360" height="300"
+                        <img srcset="./images/main_page/Rectangle1.jpg 1x, ./images/main_page/Rectangle1@2x.jpg 2x"
+                            src="./images/main_page/Rectangle1.jpg" width="360" height="300"
                             alt="Phone screen with whatsapp tabs" />
                     </li>
                     <li class="list-doing">
-                        <img src="./images/main_page/Rectangle2.jpg" width="360" height="300"
+                        <img srcset="./images/main_page/Rectangle2.jpg 1x, ./images/main_page/Rectangle2@2x.jpg 2x"
+                            src="./images/main_page/Rectangle2.jpg" width="360" height="300"
                             alt="The phone in the hands on the background of the laptop" />
                     </li>
                 </ul>
@@ -127,7 +130,8 @@
                 <h2 class="ourteam">Our Team</h2>
                 <ul class="list container-ourteam">
                     <li class="list-ourteam">
-                        <img src="./images/main_page/Our_Team.jpg" width="264" height="260"
+                        <img srcset="./images/main_page/Our_Team.jpg 1x, ./images/main_page/Our_Team@2x.jpg 2x"
+                            src="./images/main_page/Our_Team.jpg" width="264" height="260"
                             alt="A man with a black beard" />
                         <div class="container-list-ourteam">
                             <h3 class="title-ourteam">Mark Guerrero</h3>
@@ -165,7 +169,8 @@
                         </div>
                     </li>
                     <li class="list-ourteam">
-                        <img src="./images/main_page/Our_Team1.jpg" width="264" height="260"
+                        <img srcset="./images/main_page/Our_Team1.jpg 1x, ./images/main_page/Our_Team1@2x.jpg 2x"
+                            src="./images/main_page/Our_Team1.jpg" width="264" height="260"
                             alt="A man with a red beard" />
                         <div class="container-list-ourteam">
                             <h3 class="title-ourteam">Tom Ford</h3>
@@ -203,7 +208,8 @@
                         </div>
                     </li>
                     <li class="list-ourteam">
-                        <img src="./images/main_page/Our_Team2.jpg" width="264" height="260"
+                        <img srcset="./images/main_page/Our_Team2.jpg 1x, ./images/main_page/Our_Team2@2x.jpg 2x"
+                            src="./images/main_page/Our_Team2.jpg" width="264" height="260"
                             alt="The girl in a pink sweater" />
                         <div class="container-list-ourteam">
                             <h3 class="title-ourteam">Camila Garcia</h3>
@@ -241,7 +247,8 @@
                         </div>
                     </li>
                     <li class="list-ourteam">
-                        <img src="./images/main_page/Our_Team3.jpg" width="264" height="260"
+                        <img srcset="./images/main_page/Our_Team3.jpg 1x, ./images/main_page/Our_Team3@2x.jpg 2x"
+                            src="./images/main_page/Our_Team3.jpg" width="264" height="260"
                             alt="A man with short black stubble" />
                         <div class="container-list-ourteam">
                             <h3 class="title-ourteam">Daniel Wilson</h3>
@@ -460,21 +467,21 @@
         </div>
     </div>
     <div class="menu-container js-menu-container" id="mobile-menu">
+        <button class="menu-toggle js-close-menu">
+            <svg class="modal-icon icon" width="8" height="8">
+                <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+        </button>
         <div class="mobile-container">
-            <button class="menu-toggle js-close-menu">
-                <svg class="modal-icon icon" width="8" height="8">
-                    <use href="./images/icons.svg#icon-close-black"></use>
-                </svg>
-            </button>
             <ul class="list mobile-menu">
-                <li><a href="" class="link-mobile-menu link">Studio</a></li>
-                <li><a href="" class="link-mobile-menu link">Portfolio</a></li>
+                <li><a href="./index.html" class="link-mobile-menu current-mobile link">Studio</a></li>
+                <li><a href="./portfolio.html" class="link-mobile-menu link">Portfolio</a></li>
                 <li><a href="" class="link-mobile-menu link">Contacts</a></li>
             </ul>
             <address class="adress-mobile">
                 <ul class="list adress-mobile-list">
-                    <li><a class="address-mobile-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a class="address-mobile-link link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                    <li><a class="address-mobile-phone link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                    <li><a class="address-mobile-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 </ul>
             </address>
             <ul class="list mobile-social-list">
