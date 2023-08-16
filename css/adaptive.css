@@ -1050,8 +1050,8 @@ input:checked + label > span{
         flex-wrap: wrap;
         gap: 24px;
         row-gap: 72px;
-        padding-left: 108px;
         align-items: flex-start;
+        width: 552px;
     }
     .footer-left{
         align-items: flex-start;
