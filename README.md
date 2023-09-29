@@ -8,4 +8,3 @@ WEBSTUDIO Project
 ![image](https://github.com/INRGI/goit-markup-hw-06/assets/120032162/3dd78734-b59e-4247-a777-25f19bf659e6)
 ![image](https://github.com/INRGI/goit-markup-hw-06/assets/120032162/06c4ed07-569b-48f5-a571-7a8b4ab47cf2)
 ![image](https://github.com/INRGI/goit-markup-hw-06/assets/120032162/f5158bb6-17dc-41d8-9828-e243ceaeab25)
-![image](https://github.com/INRGI/goit-markup-hw-06/assets/120032162/23b4a28b-6a2b-4fd2-9c02-24fbd3a7a8f0)
